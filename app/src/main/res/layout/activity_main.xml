@@ -5,11 +5,20 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:src="@drawable/androidparty"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/envelope" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/happy_birthday"
-        android:textSize="20sp" />
+        android:textSize="24sp"
+        android:textColor="@color/colorPrimary"
+        android:padding="20dp"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -18,13 +27,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:text="@string/from"
-        android:textSize="20sp" />
+        android:textSize="24sp"
+        android:textColor="@color/colorPrimary"
+        android:padding="20dp"/>
 
-    <ImageView
-        android:src="@drawable/androidparty"
-        android:layout_height="match_parent"
-        android:layout_width="match_parent">
-
-    </ImageView>
 
 </RelativeLayout>
